@@ -90,14 +90,14 @@ class Map
     end
 end
 
-map = Map.new
-map.set(1,1)
-map.set(2,2)
-map.set("a","a")
-p map.show #[[1,1],[2,2],["a", "a"]]
-p map.get(1) #1
-p map.get(12) #nil
-map.delete(2) #[1,1],["a", "a"]]
-p map.get(2) #nil
-p map.show #[1,1],["a", "a"]]
+# map = Map.new
+# map.set(1,1)
+# map.set(2,2)
+# map.set("a","a")
+# p map.show #[[1,1],[2,2],["a", "a"]]
+# p map.get(1) #1
+# p map.get(12) #nil
+# map.delete(2) #[1,1],["a", "a"]]
+# p map.get(2) #nil
+# p map.show #[1,1],["a", "a"]]
 
